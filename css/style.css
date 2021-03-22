@@ -1,0 +1,147 @@
+/* css comuni */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.centr {
+    width: 70%;
+    margin: auto;
+}
+
+.main {
+    /* height: 400px; */
+    float: left;
+}
+
+.clear:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.marg-top {
+    margin-top: 2%;
+}
+
+/* .bk-blu {
+    background-color: #ABCFE7;
+}
+.bd-blu {
+    border-bottom: 15px solid #0882F3; */
+/* } */
+/* css header */
+
+.centr img {
+    height: 50px;
+    border-radius: 10px;
+}
+
+#nav {
+    list-style: none;
+}
+#nav li {
+    display: inline-block;
+    font-size: 15px;
+    margin: 20px 5px 5px 0;
+}
+#nav a {
+    text-decoration: none;
+    color: gray;
+}
+#nav a:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    color: red;
+    font-size: 18px;
+}
+#header-1 img{
+    width: 100px;
+}
+#header-2 {
+    height: 400px;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+#desc {
+    width: 50%;
+    padding: 25% 0% 5% 5%;
+    color: white;
+}
+
+/* css main */
+#head-main>div {
+    font-size: 10px;
+    line-height: 12px;
+    padding-bottom: 20px;
+    color: gray;
+}
+
+#sx-main, 
+#center-main, 
+#dx-main {
+    width: 20%;
+    font-size: 10px;
+    line-height: 12px;
+    padding-bottom: 20px;
+    color: gray;
+}
+#img-sx, 
+#img-center, 
+#img-dx{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+#center-main {
+    width: 60%;
+    margin: auto;
+    padding: 0 15px;
+}
+#img-center {
+    background-image: url(../img/banner-2.jpg);
+}
+#img-sx {
+    background-image: url(../img/img-1.jpg);
+}
+#img-dx {
+    background-image: url(../img/img-3.jpg);
+}
+#dx-main {
+    width: 20%;
+}
+
+/* css footer */
+footer> section {
+    height: 50px;
+    /* background-color: #8801FD; */
+    margin-top: 1%;
+}
+
+.filtro-img {
+    height: 100%;
+    background-color: rgba(158, 46, 46, 0.2);
+    border-radius: 10px;
+}
+
+h3 {
+    padding-bottom: 5px;
+}
+
+#inf-foot {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 20px;
+}
+
+#inf-foot::after {
+    content: "\2764";
+    color: red;
+}
+
